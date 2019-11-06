@@ -1,0 +1,24 @@
+0	1	mikroCARM.exe -MSF -DBG -pCEC1302 -BIN -ATYPE -APB -C -Y -DL -SSA -O11111113 -fo48 -N"C:\Users\ghost\Desktop\MECO_journal\paillier-master\ide\paillier_cec1302.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\MCHP M4\" -SP"C:\Users\ghost\Desktop\MECO_journal\paillier-master\ide\" -SP"C:\Users\ghost\Desktop\MECO_journal\paillier-master\src\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\MCHP M4\" -IP"C:\Users\ghost\Desktop\MECO_journal\paillier-master\ide\" -IP"C:\Users\ghost\Desktop\MECO_journal\paillier-master\include\" "paillier_cec1302.c" "paillier.c" "rng.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_CEC1302.emcl" "__Lib_GPIO_CEC1302.emcl" "__Lib_CType.emcl" "__Lib_Sprintf.emcl" "__Lib_UART.emcl" "__Lib_PKE.emcl" "__Lib_RNG.emcl"	 
+diagnostics: 0	122	Compilation Started	paillier_cec1302.c
+diagnostics: 3	123	Compiled Successfully	paillier_cec1302.c
+error: 7	304	 error: Can't open include file "bigi.h"     #include <bigi.h>     from C:/Users/ghost/Desktop/MECO_journal/paillier-master/src/paillier.c: 1:    #include <paillier.h> 1 error in preprocessor.	c:\users\ghost\desktop\meco_journal\paillier-master\include\paillier.h
+diagnostics: 0	122	Compilation Started	stdint.h
+error: 22	300	Syntax Error: ')' expected,  but '*' found	paillier.h
+error: 22	402	; expected, but '*' found	paillier.h
+error: 22	402	; expected, but ',' found	paillier.h
+error: 22	371	Specifier needed	paillier.h
+error: 22	396	Invalid declarator expected'(' or identifier	paillier.h
+error: 22	402	; expected, but '*' found	paillier.h
+error: 22	393	'bigint_type' Identifier redefined	paillier.h
+error: 22	402	; expected, but ',' found	paillier.h
+error: 22	371	Specifier needed	paillier.h
+error: 22	396	Invalid declarator expected'(' or identifier	paillier.h
+error: 22	402	; expected, but '*' found	paillier.h
+error: 22	393	'' Identifier redefined	paillier.h
+error: 22	393	'bigint_type' Identifier redefined	paillier.h
+error: 22	312	Internal error ''	paillier.h
+error: 2	304	 error: Can't open include file "bigi.h"     #include <bigi.h> 1 error in preprocessor.	C:\Users\ghost\Desktop\MECO_journal\paillier-master\src\rng.c
+diagnostics: 0	122	Compilation Started	time.h
+error: 26	324	Undeclared identifier 'NUM_SIZE' in expression	rng.c
+hint: 24	1163	Variable 'i' has been declared, but not used	rng.c
+error: 0	102	Finished (with errors): 11 øíj 2019, 21:49:57	paillier_cec1302.mcpar
